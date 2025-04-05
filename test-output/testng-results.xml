@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="9" total="11" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="9" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-04T00:35:50 IST" name="Suite" finished-at="2025-04-04T00:37:18 IST" duration-ms="88354">
+  <suite started-at="2025-04-04T20:30:48 IST" name="Suite" finished-at="2025-04-04T20:42:29 IST" duration-ms="700164">
     <groups>
     </groups>
-    <test started-at="2025-04-04T00:35:50 IST" name="Test" finished-at="2025-04-04T00:37:18 IST" duration-ms="88354">
+    <test started-at="2025-04-04T20:30:48 IST" name="Test" finished-at="2025-04-04T20:42:29 IST" duration-ms="700164">
       <class name="com.creatio.crm.application.tests.ApplicationTest">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@4ec4f3a0]" started-at="2025-04-04T00:35:50 IST" name="setupReport" finished-at="2025-04-04T00:35:50 IST" duration-ms="115" status="PASS">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:30:48 IST" name="setupReport" finished-at="2025-04-04T20:30:48 IST" duration-ms="140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@4ec4f3a0]" started-at="2025-04-04T00:35:50 IST" name="setupBrowser" finished-at="2025-04-04T00:35:51 IST" duration-ms="1372" status="PASS">
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:30:48 IST" name="setupBrowser" finished-at="2025-04-04T20:31:25 IST" duration-ms="36768" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,19 +22,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method is-config="true" signature="initializePageObjects()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@4ec4f3a0]" started-at="2025-04-04T00:35:51 IST" name="initializePageObjects" finished-at="2025-04-04T00:35:51 IST" depends-on-methods="com.creatio.crm.framework.base.BasePage.setupBrowser" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="initializePageObjects()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:31:25 IST" name="initializePageObjects" finished-at="2025-04-04T20:31:25 IST" depends-on-methods="com.creatio.crm.framework.base.BasePage.setupBrowser" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializePageObjects -->
-        <test-method signature="verifyCookiesPopUpSwitchButtons()[pri:5, instance:com.creatio.crm.application.tests.ApplicationTest@4ec4f3a0]" started-at="2025-04-04T00:35:51 IST" name="verifyCookiesPopUpSwitchButtons" finished-at="2025-04-04T00:35:57 IST" duration-ms="5521" status="PASS">
+        <test-method signature="verifyCookiesPopUp()[pri:1, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:31:25 IST" name="verifyCookiesPopUp" finished-at="2025-04-04T20:31:35 IST" duration-ms="10196" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCookiesPopUpSwitchButtons -->
-        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@4ec4f3a0]" started-at="2025-04-04T00:35:57 IST" name="tearDownBrowser" finished-at="2025-04-04T00:35:57 IST" duration-ms="151" status="PASS">
+        </test-method> <!-- verifyCookiesPopUp -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:31:36 IST" name="tearDownBrowser" finished-at="2025-04-04T20:31:36 IST" duration-ms="153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownBrowser -->
-        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@4ec4f3a0]" started-at="2025-04-04T00:35:57 IST" name="setupBrowser" finished-at="2025-04-04T00:35:58 IST" duration-ms="880" status="PASS">
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:31:36 IST" name="setupBrowser" finished-at="2025-04-04T20:31:37 IST" duration-ms="949" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,11 +45,202 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method is-config="true" signature="initializePageObjects()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@4ec4f3a0]" started-at="2025-04-04T00:35:58 IST" name="initializePageObjects" finished-at="2025-04-04T00:35:58 IST" depends-on-methods="com.creatio.crm.framework.base.BasePage.setupBrowser" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="initializePageObjects()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:31:37 IST" name="initializePageObjects" finished-at="2025-04-04T20:31:37 IST" depends-on-methods="com.creatio.crm.framework.base.BasePage.setupBrowser" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializePageObjects -->
-        <test-method signature="verifySignUpForNewUserAccount(java.lang.String,java.lang.String)[pri:10, instance:com.creatio.crm.application.tests.ApplicationTest@4ec4f3a0]" started-at="2025-04-04T00:35:58 IST" name="verifySignUpForNewUserAccount" data-provider="data" finished-at="2025-04-04T00:37:18 IST" duration-ms="79475" status="PASS">
+        <test-method signature="verifyCookiesPopUpContent(java.lang.String)[pri:2, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:31:37 IST" name="verifyCookiesPopUpContent" data-provider="data" finished-at="2025-04-04T20:31:56 IST" duration-ms="18657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[We may use cookies and similar technologies to collect information about the ways you interact with and use the website, to support and enhance features and functionality, to monitor performance, to personalize content and experiences, for marketing and analytics, and for other lawful purposes. We also may share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services. Please, see more details on the "About" tab ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCookiesPopUpContent -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:31:56 IST" name="tearDownBrowser" finished-at="2025-04-04T20:31:56 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:31:56 IST" name="setupBrowser" finished-at="2025-04-04T20:31:57 IST" duration-ms="933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="initializePageObjects()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:31:57 IST" name="initializePageObjects" finished-at="2025-04-04T20:31:57 IST" depends-on-methods="com.creatio.crm.framework.base.BasePage.setupBrowser" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method signature="verifyCookiesPopUpLogos()[pri:3, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:31:57 IST" name="verifyCookiesPopUpLogos" finished-at="2025-04-04T20:32:34 IST" duration-ms="37318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCookiesPopUpLogos -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:32:34 IST" name="tearDownBrowser" finished-at="2025-04-04T20:32:35 IST" duration-ms="826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:32:35 IST" name="setupBrowser" finished-at="2025-04-04T20:32:36 IST" duration-ms="889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="initializePageObjects()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:32:36 IST" name="initializePageObjects" finished-at="2025-04-04T20:32:36 IST" depends-on-methods="com.creatio.crm.framework.base.BasePage.setupBrowser" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method signature="verifyCookiesPopUpSelectionButtons()[pri:4, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:32:36 IST" name="verifyCookiesPopUpSelectionButtons" finished-at="2025-04-04T20:32:55 IST" duration-ms="19288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCookiesPopUpSelectionButtons -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:32:55 IST" name="tearDownBrowser" finished-at="2025-04-04T20:32:56 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:32:56 IST" name="setupBrowser" finished-at="2025-04-04T20:32:56 IST" duration-ms="960" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="initializePageObjects()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:32:56 IST" name="initializePageObjects" finished-at="2025-04-04T20:32:56 IST" depends-on-methods="com.creatio.crm.framework.base.BasePage.setupBrowser" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method signature="verifyCookiesPopUpSwitchButtons()[pri:5, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:32:56 IST" name="verifyCookiesPopUpSwitchButtons" finished-at="2025-04-04T20:33:15 IST" duration-ms="18812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCookiesPopUpSwitchButtons -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:33:15 IST" name="tearDownBrowser" finished-at="2025-04-04T20:33:15 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:33:15 IST" name="setupBrowser" finished-at="2025-04-04T20:33:16 IST" duration-ms="981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="initializePageObjects()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:33:16 IST" name="initializePageObjects" finished-at="2025-04-04T20:33:16 IST" depends-on-methods="com.creatio.crm.framework.base.BasePage.setupBrowser" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method signature="verifyCookiesPopUpExpandedView()[pri:6, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:33:16 IST" name="verifyCookiesPopUpExpandedView" finished-at="2025-04-04T20:33:37 IST" duration-ms="20842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCookiesPopUpExpandedView -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:33:37 IST" name="tearDownBrowser" finished-at="2025-04-04T20:33:38 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:33:38 IST" name="setupBrowser" finished-at="2025-04-04T20:33:38 IST" duration-ms="959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="initializePageObjects()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:33:38 IST" name="initializePageObjects" finished-at="2025-04-04T20:33:38 IST" depends-on-methods="com.creatio.crm.framework.base.BasePage.setupBrowser" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method signature="verifyCookiesSelectionByAllowingCookies()[pri:7, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:33:38 IST" name="verifyCookiesSelectionByAllowingCookies" finished-at="2025-04-04T20:34:01 IST" duration-ms="22437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCookiesSelectionByAllowingCookies -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:34:01 IST" name="tearDownBrowser" finished-at="2025-04-04T20:34:01 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:34:01 IST" name="setupBrowser" finished-at="2025-04-04T20:34:02 IST" duration-ms="973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="initializePageObjects()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:34:02 IST" name="initializePageObjects" finished-at="2025-04-04T20:34:02 IST" depends-on-methods="com.creatio.crm.framework.base.BasePage.setupBrowser" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method signature="verifyCookiesSelectionByDenyingCookies()[pri:8, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:34:02 IST" name="verifyCookiesSelectionByDenyingCookies" finished-at="2025-04-04T20:34:38 IST" duration-ms="35779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCookiesSelectionByDenyingCookies -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:34:38 IST" name="tearDownBrowser" finished-at="2025-04-04T20:34:38 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:34:38 IST" name="setupBrowser" finished-at="2025-04-04T20:34:39 IST" duration-ms="987" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="initializePageObjects()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:34:39 IST" name="initializePageObjects" finished-at="2025-04-04T20:34:39 IST" depends-on-methods="com.creatio.crm.framework.base.BasePage.setupBrowser" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method signature="verifySignUpPage()[pri:9, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:34:39 IST" name="verifySignUpPage" finished-at="2025-04-04T20:36:00 IST" duration-ms="80724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpPage -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:36:00 IST" name="tearDownBrowser" finished-at="2025-04-04T20:36:00 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:36:00 IST" name="setupBrowser" finished-at="2025-04-04T20:36:01 IST" duration-ms="1077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="initializePageObjects()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:36:01 IST" name="initializePageObjects" finished-at="2025-04-04T20:36:01 IST" depends-on-methods="com.creatio.crm.framework.base.BasePage.setupBrowser" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method signature="verifySignUpForNewUserAccount(java.lang.String,java.lang.String)[pri:10, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:36:01 IST" name="verifySignUpForNewUserAccount" data-provider="data" finished-at="2025-04-04T20:39:42 IST" duration-ms="220643" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -62,10 +253,293 @@
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[text()='Application Hub']' (tried for 120 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[text()='Application Hub']' (tried for 120 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.creatio.crm.framework.web.commons.WebCommons.waitForElement(WebCommons.java:115)
+at com.creatio.crm.application.steps.HomePageSteps.verifySignUpIsSuccessful(HomePageSteps.java:20)
+at com.creatio.crm.application.tests.ApplicationTest.verifySignUpForNewUserAccount(ApplicationTest.java:93)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Application Hub']"}
+  (Session info: chrome=135.0.7049.41)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83f615f39b80c94525aef4fc6f810a5e, findElement {using=xpath, value=//span[text()='Application Hub']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.41, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: C:\Users\india\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53629/devtoo..., se:cdpVersion: 135.0.7049.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 83f615f39b80c94525aef4fc6f810a5e
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignUpForNewUserAccount -->
-        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@4ec4f3a0]" started-at="2025-04-04T00:37:18 IST" name="tearDownBrowser" finished-at="2025-04-04T00:37:18 IST" duration-ms="154" status="PASS">
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:39:42 IST" name="tearDownBrowser" finished-at="2025-04-04T20:39:42 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:39:42 IST" name="setupBrowser" finished-at="2025-04-04T20:39:43 IST" duration-ms="985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="initializePageObjects()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:39:43 IST" name="initializePageObjects" finished-at="2025-04-04T20:39:43 IST" depends-on-methods="com.creatio.crm.framework.base.BasePage.setupBrowser" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method signature="verifyApplicationLogin(java.lang.String,java.lang.String)[pri:11, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:39:43 IST" name="verifyApplicationLogin" data-provider="data" finished-at="2025-04-04T20:41:06 IST" duration-ms="82879" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BharathTechAcademy13@outlook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BharathTechAcademy@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[text()='Application Hub']' (tried for 60 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[text()='Application Hub']' (tried for 60 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.creatio.crm.framework.web.commons.WebCommons.waitForElement(WebCommons.java:115)
+at com.creatio.crm.application.steps.HomePageSteps.verifyLoginIsSuccessful(HomePageSteps.java:15)
+at com.creatio.crm.application.tests.ApplicationTest.verifyApplicationLogin(ApplicationTest.java:104)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Application Hub']"}
+  (Session info: chrome=135.0.7049.41)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0947ebdddd257fedca1a10dac8fb4945, findElement {using=xpath, value=//span[text()='Application Hub']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.41, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: C:\Users\india\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53823}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53823/devtoo..., se:cdpVersion: 135.0.7049.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0947ebdddd257fedca1a10dac8fb4945
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationLogin -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:41:06 IST" name="tearDownBrowser" finished-at="2025-04-04T20:41:06 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownBrowser -->
+        <test-method is-config="true" signature="setupBrowser(java.lang.String)[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:41:06 IST" name="setupBrowser" finished-at="2025-04-04T20:41:07 IST" duration-ms="1103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="initializePageObjects()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:41:07 IST" name="initializePageObjects" finished-at="2025-04-04T20:41:07 IST" depends-on-methods="com.creatio.crm.framework.base.BasePage.setupBrowser" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjects -->
+        <test-method signature="verifyApplicationLogin(java.lang.String,java.lang.String)[pri:11, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:41:07 IST" name="verifyApplicationLogin" data-provider="data" finished-at="2025-04-04T20:42:28 IST" duration-ms="80918" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BharathTechAcademy162345182754@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ABCD123#]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[text()='Application Hub']' (tried for 60 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[text()='Application Hub']' (tried for 60 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.creatio.crm.framework.web.commons.WebCommons.waitForElement(WebCommons.java:115)
+at com.creatio.crm.application.steps.HomePageSteps.verifyLoginIsSuccessful(HomePageSteps.java:15)
+at com.creatio.crm.application.tests.ApplicationTest.verifyApplicationLogin(ApplicationTest.java:104)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Application Hub']"}
+  (Session info: chrome=135.0.7049.41)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ff8ff646e43ba6680f729c44a013740, findElement {using=xpath, value=//span[text()='Application Hub']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.41, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: C:\Users\india\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53949}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53949/devtoo..., se:cdpVersion: 135.0.7049.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ff8ff646e43ba6680f729c44a013740
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationLogin -->
+        <test-method is-config="true" signature="tearDownBrowser()[pri:0, instance:com.creatio.crm.application.tests.ApplicationTest@5c33f1a9]" started-at="2025-04-04T20:42:28 IST" name="tearDownBrowser" finished-at="2025-04-04T20:42:29 IST" duration-ms="135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownBrowser -->

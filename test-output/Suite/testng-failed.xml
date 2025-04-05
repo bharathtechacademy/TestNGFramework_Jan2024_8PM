@@ -13,6 +13,7 @@
           <include name="verifySignUpForNewUserAccount" invocation-numbers="0"/>
           <include name="tearDownBrowser"/>
           <include name="setupBrowser"/>
+          <include name="verifyApplicationLogin" invocation-numbers="0 1"/>
           <include name="initializePageObjects"/>
         </methods>
       </class> <!-- com.creatio.crm.application.tests.ApplicationTest -->

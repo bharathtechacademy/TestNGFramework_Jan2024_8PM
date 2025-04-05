@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Training\JAN_2025_8PM\AutomationTraining\CreatioCRMAppTestNGFramework\E2ETest.xml</span>
+                    <span>C:\Training\JAN_2025_8PM\AutomationTraining\CreatioCRMTestNGFramework\TestRunner\E2ETest.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">12 methods, 3 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.creatio.crm.application.tests.ApplicationTest" class="method navigator-link" hash-for-method="verifyApplicationLogin(BharathTechAcademy162345182754@gmail.com, ABCD123#)">verifyApplicationLogin(BharathTechAcademy162345182754@gmail.com, ABCD123#)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.creatio.crm.application.tests.ApplicationTest" class="method navigator-link" hash-for-method="verifyApplicationLogin(BharathTechAcademy13@outlook.com, BharathTechAcademy@123)">verifyApplicationLogin(BharathTechAcademy13@outlook.com, BharathTechAcademy@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.creatio.crm.application.tests.ApplicationTest" class="method navigator-link" hash-for-method="verifySignUpForNewUserAccount(BharathTechAcademy@gmail.com, BharathTechAcademy@123)">verifySignUpForNewUserAccount(BharathTechAcademy@gmail.com, BharathTechAcademy@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,12 +128,47 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.creatio.crm.application.tests.ApplicationTest" class="method navigator-link" hash-for-method="verifyCookiesPopUp">verifyCookiesPopUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.creatio.crm.application.tests.ApplicationTest" class="method navigator-link" hash-for-method="verifyCookiesPopUpContent(We may use cookies and similar technologies to collect information about the ways you interact with ...)">verifyCookiesPopUpContent(We may use cookies and similar technologies to collect information about the ways you interact with ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.creatio.crm.application.tests.ApplicationTest" class="method navigator-link" hash-for-method="verifyCookiesPopUpExpandedView">verifyCookiesPopUpExpandedView</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.creatio.crm.application.tests.ApplicationTest" class="method navigator-link" hash-for-method="verifyCookiesPopUpLogos">verifyCookiesPopUpLogos</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.creatio.crm.application.tests.ApplicationTest" class="method navigator-link" hash-for-method="verifyCookiesPopUpSelectionButtons">verifyCookiesPopUpSelectionButtons</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.creatio.crm.application.tests.ApplicationTest" class="method navigator-link" hash-for-method="verifyCookiesPopUpSwitchButtons">verifyCookiesPopUpSwitchButtons</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.creatio.crm.application.tests.ApplicationTest" class="method navigator-link" hash-for-method="verifySignUpForNewUserAccount(BharathTechAcademy@gmail.com, BharathTechAcademy@123)">verifySignUpForNewUserAccount(BharathTechAcademy@gmail.com, BharathTechAcademy@123)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.creatio.crm.application.tests.ApplicationTest" class="method navigator-link" hash-for-method="verifyCookiesSelectionByAllowingCookies">verifyCookiesSelectionByAllowingCookies</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.creatio.crm.application.tests.ApplicationTest" class="method navigator-link" hash-for-method="verifyCookiesSelectionByDenyingCookies">verifyCookiesSelectionByDenyingCookies</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.creatio.crm.application.tests.ApplicationTest" class="method navigator-link" hash-for-method="verifySignUpPage">verifySignUpPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -124,12 +183,191 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.creatio.crm.application.tests.ApplicationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyApplicationLogin(BharathTechAcademy162345182754@gmail.com, ABCD123#)">
+                  </a> <!-- verifyApplicationLogin(BharathTechAcademy162345182754@gmail.com, ABCD123#) -->
+                  <span class="method-name">verifyApplicationLogin</span>
+                  <span class="parameters">(BharathTechAcademy162345182754@gmail.com, ABCD123#)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[text()=&apos;Application Hub&apos;]&apos; (tried for 60 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.creatio.crm.framework.web.commons.WebCommons.waitForElement(WebCommons.java:115)
+	at com.creatio.crm.application.steps.HomePageSteps.verifyLoginIsSuccessful(HomePageSteps.java:15)
+	at com.creatio.crm.application.tests.ApplicationTest.verifyApplicationLogin(ApplicationTest.java:104)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Application Hub&apos;]&quot;}
+  (Session info: chrome=135.0.7049.41)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ff8ff646e43ba6680f729c44a013740, findElement {using=xpath, value=//span[text()=&apos;Application Hub&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.41, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: C:\Users\india\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53949}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53949/devtoo..., se:cdpVersion: 135.0.7049.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ff8ff646e43ba6680f729c44a013740
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 29 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyApplicationLogin(BharathTechAcademy13@outlook.com, BharathTechAcademy@123)">
+                  </a> <!-- verifyApplicationLogin(BharathTechAcademy13@outlook.com, BharathTechAcademy@123) -->
+                  <span class="method-name">verifyApplicationLogin</span>
+                  <span class="parameters">(BharathTechAcademy13@outlook.com, BharathTechAcademy@123)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[text()=&apos;Application Hub&apos;]&apos; (tried for 60 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.creatio.crm.framework.web.commons.WebCommons.waitForElement(WebCommons.java:115)
+	at com.creatio.crm.application.steps.HomePageSteps.verifyLoginIsSuccessful(HomePageSteps.java:15)
+	at com.creatio.crm.application.tests.ApplicationTest.verifyApplicationLogin(ApplicationTest.java:104)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Application Hub&apos;]&quot;}
+  (Session info: chrome=135.0.7049.41)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0947ebdddd257fedca1a10dac8fb4945, findElement {using=xpath, value=//span[text()=&apos;Application Hub&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.41, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: C:\Users\india\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53823}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53823/devtoo..., se:cdpVersion: 135.0.7049.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0947ebdddd257fedca1a10dac8fb4945
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 29 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignUpForNewUserAccount(BharathTechAcademy@gmail.com, BharathTechAcademy@123)">
+                  </a> <!-- verifySignUpForNewUserAccount(BharathTechAcademy@gmail.com, BharathTechAcademy@123) -->
+                  <span class="method-name">verifySignUpForNewUserAccount</span>
+                  <span class="parameters">(BharathTechAcademy@gmail.com, BharathTechAcademy@123)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[text()=&apos;Application Hub&apos;]&apos; (tried for 120 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.creatio.crm.framework.web.commons.WebCommons.waitForElement(WebCommons.java:115)
+	at com.creatio.crm.application.steps.HomePageSteps.verifySignUpIsSuccessful(HomePageSteps.java:20)
+	at com.creatio.crm.application.tests.ApplicationTest.verifySignUpForNewUserAccount(ApplicationTest.java:93)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Application Hub&apos;]&quot;}
+  (Session info: chrome=135.0.7049.41)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [83f615f39b80c94525aef4fc6f810a5e, findElement {using=xpath, value=//span[text()=&apos;Application Hub&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.41, chrome: {chromedriverVersion: 135.0.7049.42 (0f351bbd2617..., userDataDir: C:\Users\india\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53629/devtoo..., se:cdpVersion: 135.0.7049.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 83f615f39b80c94525aef4fc6f810a5e
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 29 more
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">com.creatio.crm.application.tests.ApplicationTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCookiesPopUp">
+                  </a> <!-- verifyCookiesPopUp -->
+                  <span class="method-name">verifyCookiesPopUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCookiesPopUpContent(We may use cookies and similar technologies to collect information about the ways you interact with ...)">
+                  </a> <!-- verifyCookiesPopUpContent(We may use cookies and similar technologies to collect information about the ways you interact with ...) -->
+                  <span class="method-name">verifyCookiesPopUpContent</span>
+                  <span class="parameters">(We may use cookies and similar technologies to collect information about the ways you interact with and use the website, to support and enhance features and functionality, to monitor performance, to personalize content and experiences, for marketing and analytics, and for other lawful purposes. We also may share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services. Please, see more details on the "About" tab )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCookiesPopUpExpandedView">
+                  </a> <!-- verifyCookiesPopUpExpandedView -->
+                  <span class="method-name">verifyCookiesPopUpExpandedView</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCookiesPopUpLogos">
+                  </a> <!-- verifyCookiesPopUpLogos -->
+                  <span class="method-name">verifyCookiesPopUpLogos</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCookiesPopUpSelectionButtons">
+                  </a> <!-- verifyCookiesPopUpSelectionButtons -->
+                  <span class="method-name">verifyCookiesPopUpSelectionButtons</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="verifyCookiesPopUpSwitchButtons">
@@ -139,10 +377,23 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifySignUpForNewUserAccount(BharathTechAcademy@gmail.com, BharathTechAcademy@123)">
-                  </a> <!-- verifySignUpForNewUserAccount(BharathTechAcademy@gmail.com, BharathTechAcademy@123) -->
-                  <span class="method-name">verifySignUpForNewUserAccount</span>
-                  <span class="parameters">(BharathTechAcademy@gmail.com, BharathTechAcademy@123)</span>
+                  <a name="verifyCookiesSelectionByAllowingCookies">
+                  </a> <!-- verifyCookiesSelectionByAllowingCookies -->
+                  <span class="method-name">verifyCookiesSelectionByAllowingCookies</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCookiesSelectionByDenyingCookies">
+                  </a> <!-- verifyCookiesSelectionByDenyingCookies -->
+                  <span class="method-name">verifyCookiesSelectionByDenyingCookies</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySignUpPage">
+                  </a> <!-- verifySignUpPage -->
+                  <span class="method-name">verifySignUpPage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -150,7 +401,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Training\JAN_2025_8PM\AutomationTraining\CreatioCRMAppTestNGFramework\E2ETest.xml</span>
+            <span class="header-content">C:\Training\JAN_2025_8PM\AutomationTraining\CreatioCRMTestNGFramework\TestRunner\E2ETest.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -163,12 +414,7 @@
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.creatio.crm.application.tests.ApplicationTest&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;verifySignUpForNewUserAccount&quot;/&gt;
-          &lt;include name=&quot;verifyCookiesPopUpSwitchButtons&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.creatio.crm.application.tests.ApplicationTest --&gt;
+      &lt;class name=&quot;com.creatio.crm.application.tests.ApplicationTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -208,20 +454,60 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(12);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifySignUpForNewUserAccount')
 data.setCell(0, 2, 'com.creatio.crm.application.tests.ApplicationTest')
-data.setCell(0, 3, 79475);
+data.setCell(0, 3, 220643);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyCookiesPopUpSwitchButtons')
+data.setCell(1, 1, 'verifyApplicationLogin')
 data.setCell(1, 2, 'com.creatio.crm.application.tests.ApplicationTest')
-data.setCell(1, 3, 5521);
+data.setCell(1, 3, 82879);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyApplicationLogin')
+data.setCell(2, 2, 'com.creatio.crm.application.tests.ApplicationTest')
+data.setCell(2, 3, 80918);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifySignUpPage')
+data.setCell(3, 2, 'com.creatio.crm.application.tests.ApplicationTest')
+data.setCell(3, 3, 80724);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyCookiesPopUpLogos')
+data.setCell(4, 2, 'com.creatio.crm.application.tests.ApplicationTest')
+data.setCell(4, 3, 37318);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyCookiesSelectionByDenyingCookies')
+data.setCell(5, 2, 'com.creatio.crm.application.tests.ApplicationTest')
+data.setCell(5, 3, 35779);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyCookiesSelectionByAllowingCookies')
+data.setCell(6, 2, 'com.creatio.crm.application.tests.ApplicationTest')
+data.setCell(6, 3, 22437);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyCookiesPopUpExpandedView')
+data.setCell(7, 2, 'com.creatio.crm.application.tests.ApplicationTest')
+data.setCell(7, 3, 20842);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyCookiesPopUpSelectionButtons')
+data.setCell(8, 2, 'com.creatio.crm.application.tests.ApplicationTest')
+data.setCell(8, 3, 19288);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyCookiesPopUpSwitchButtons')
+data.setCell(9, 2, 'com.creatio.crm.application.tests.ApplicationTest')
+data.setCell(9, 3, 18812);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyCookiesPopUpContent')
+data.setCell(10, 2, 'com.creatio.crm.application.tests.ApplicationTest')
+data.setCell(10, 3, 18657);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyCookiesPopUp')
+data.setCell(11, 2, 'com.creatio.crm.application.tests.ApplicationTest')
+data.setCell(11, 3, 10196);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 10 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -236,32 +522,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">9 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.creatio.crm.application.tests.ApplicationTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">verifyCookiesPopUpLogos</span>
-                <br/>
-                <span class="ignored-method-name">verifyCookiesPopUp</span>
-                <br/>
-                <span class="ignored-method-name">verifyCookiesPopUpSelectionButtons</span>
-                <br/>
-                <span class="ignored-method-name">verifyCookiesPopUpExpandedView</span>
-                <br/>
-                <span class="ignored-method-name">verifySignUpPage</span>
-                <br/>
-                <span class="ignored-method-name">verifyCookiesPopUpContent</span>
-                <br/>
-                <span class="ignored-method-name">verifyCookiesSelectionByAllowingCookies</span>
-                <br/>
-                <span class="ignored-method-name">verifyApplicationLogin</span>
-                <br/>
-                <span class="ignored-method-name">verifyCookiesSelectionByDenyingCookies</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -277,35 +540,201 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setupBrowser(chrome)</span>
-                <span class="method-start">132 ms</span>
+                <span class="method-start">159 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">initializePageObjects</span>
-                <span class="method-start">1505 ms</span>
+                <span class="method-start">36928 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyCookiesPopUpSwitchButtons</span>
-                <span class="method-start">1525 ms</span>
+                <span class="method-name">verifyCookiesPopUp</span>
+                <span class="method-start">36949 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDownBrowser</span>
-                <span class="method-start">7235 ms</span>
+                <span class="method-start">47347 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setupBrowser(chrome)</span>
-                <span class="method-start">7929 ms</span>
+                <span class="method-start">48062 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">initializePageObjects</span>
-                <span class="method-start">8809 ms</span>
+                <span class="method-start">49011 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifySignUpForNewUserAccount(BharathTechAcademy@gmail.com, BharathTechAcademy@123)</span>
-                <span class="method-start">8811 ms</span>
+                <span class="method-name">verifyCookiesPopUpContent(We may use cookies and similar technologies to collect information about the ways you interact with ...)</span>
+                <span class="method-start">49012 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDownBrowser</span>
-                <span class="method-start">88314 ms</span>
+                <span class="method-start">67702 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser(chrome)</span>
+                <span class="method-start">67828 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePageObjects</span>
+                <span class="method-start">68761 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCookiesPopUpLogos</span>
+                <span class="method-start">68763 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownBrowser</span>
+                <span class="method-start">106114 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser(chrome)</span>
+                <span class="method-start">106942 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePageObjects</span>
+                <span class="method-start">107831 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCookiesPopUpSelectionButtons</span>
+                <span class="method-start">107834 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownBrowser</span>
+                <span class="method-start">127146 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser(chrome)</span>
+                <span class="method-start">127271 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePageObjects</span>
+                <span class="method-start">128231 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCookiesPopUpSwitchButtons</span>
+                <span class="method-start">128235 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownBrowser</span>
+                <span class="method-start">147077 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser(chrome)</span>
+                <span class="method-start">147221 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePageObjects</span>
+                <span class="method-start">148202 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCookiesPopUpExpandedView</span>
+                <span class="method-start">148206 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownBrowser</span>
+                <span class="method-start">169092 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser(chrome)</span>
+                <span class="method-start">169256 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePageObjects</span>
+                <span class="method-start">170215 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCookiesSelectionByAllowingCookies</span>
+                <span class="method-start">170217 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownBrowser</span>
+                <span class="method-start">192689 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser(chrome)</span>
+                <span class="method-start">192825 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePageObjects</span>
+                <span class="method-start">193798 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCookiesSelectionByDenyingCookies</span>
+                <span class="method-start">193802 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownBrowser</span>
+                <span class="method-start">229606 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser(chrome)</span>
+                <span class="method-start">229738 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePageObjects</span>
+                <span class="method-start">230725 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySignUpPage</span>
+                <span class="method-start">230728 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownBrowser</span>
+                <span class="method-start">311486 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser(chrome)</span>
+                <span class="method-start">311698 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePageObjects</span>
+                <span class="method-start">312775 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifySignUpForNewUserAccount(BharathTechAcademy@gmail.com, BharathTechAcademy@123)</span>
+                <span class="method-start">312778 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownBrowser</span>
+                <span class="method-start">533577 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser(chrome)</span>
+                <span class="method-start">533816 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePageObjects</span>
+                <span class="method-start">534801 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyApplicationLogin(BharathTechAcademy13@outlook.com, BharathTechAcademy@123)</span>
+                <span class="method-start">534804 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownBrowser</span>
+                <span class="method-start">617813 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser(chrome)</span>
+                <span class="method-start">618028 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializePageObjects</span>
+                <span class="method-start">619131 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyApplicationLogin(BharathTechAcademy162345182754@gmail.com, ABCD123#)</span>
+                <span class="method-start">619132 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownBrowser</span>
+                <span class="method-start">700170 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
